@@ -6,7 +6,7 @@ static const Block blocks[] = {
 	{"",         "volume-icon.sh",                                          0,                  3},
 	{" ",       "cat /sys/class/power_supply/BAT0/capacity",               300,                0},
 	{"",         "date '+%Y%m%d-%H%M%S (%a)'",                              1,                  0},
-	{"",         "echo $(( 3389291585 - `date +%s` ))",                     1,                  0},
+	{"",         "date +%s",                                                1,                  0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
