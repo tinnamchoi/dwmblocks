@@ -9,7 +9,7 @@ static const Block blocks[] = {
 	{"",         "date +%s",                                                1,                  0},
 };
 
-//sets delimeter between status commands. NULL character ('\0') means no delimeter.
+//sets delimiter between status commands. NULL character ('\0') means no delimiter.
 static char delim[] = " | ";
 static unsigned int delimLen = 3;
 
